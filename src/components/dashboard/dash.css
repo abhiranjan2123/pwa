@@ -1,0 +1,23 @@
+body{
+    background-image: url(./bg3.jpg);
+   
+    background-size: cover;
+}
+
+.bg{
+    position: relative;
+    left:550px;
+    justify-content:center;
+    text-align: center;
+}
+h1{
+    font-family: "mistral";
+    font-weight: 100;
+   
+
+}
+h4{
+    font-family: "mistral";
+    font-weight: 100;
+    font-size: large;
+}
