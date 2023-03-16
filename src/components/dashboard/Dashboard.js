@@ -5,9 +5,9 @@ function Component() {
   return( 
   <>
   <div className="bg">
-  <center><h1>Welcome to e-drycleaning </h1>
+  {/* <center><h1>Welcome to e-drycleaning </h1>
   <h4>Created by : Abhishek Ranjanagouda G && Br Bhargav Hebbar</h4>
-  </center>
+  </center> */}
   </div>
   
   </>

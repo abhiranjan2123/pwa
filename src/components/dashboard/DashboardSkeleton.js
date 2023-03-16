@@ -18,9 +18,9 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
 import { Customer } from "./customer/Customer";
-import { History } from "./history/History";
+//import { History } from "./history/History";
 import { Item } from "./item/Item";
-import { Vehicle } from "./vehicle/Vehicle";
+//import { Vehicle } from "./vehicle/Vehicle";
 import { Worker } from "./worker/Worker";
 
 class NavItem {

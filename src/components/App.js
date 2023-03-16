@@ -4,10 +4,10 @@ import { SignUp } from "./auth/SignUp";
 import { Login } from "./auth/Login";
 import { Dashboard } from "./dashboard/Dashboard";
 import { Customer } from "./dashboard/customer/Customer";
-import { History } from "./dashboard/history/History";
+//import { History } from "./dashboard/history/History";
 import { Item } from "./dashboard/item/Item";
 
-import { Vehicle } from "./dashboard/vehicle/Vehicle";
+//import { Vehicle } from "./dashboard/vehicle/Vehicle";
 import { Worker } from "./dashboard/worker/Worker";
 
 import { AuthProvider } from "../contexts/Auth";
@@ -26,7 +26,7 @@ function App() {
               path="/customer"
               component={Customer}
             ></PrivateRoute>
-            <PrivateRoute
+            {/* <PrivateRoute
               exact
               path="/history"
               component={History}
@@ -36,7 +36,7 @@ function App() {
               exact
               path="/vehicle"
               component={Vehicle}
-            ></PrivateRoute>
+            ></PrivateRoute> */}
             <PrivateRoute
               exact
               path="/worker"
